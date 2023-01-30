@@ -8,7 +8,7 @@ import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
-
+import Typography from '@mui/material/Typography'
 export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
@@ -37,7 +37,8 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo" /><Typography variant="h4"  style={{marginTop :"-75px",marginLeft:"100px" ,fontSize:"30px",fontFamily:"sans-serif" , color:"white"}}color="initial">My PortFolio</Typography>
+
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
