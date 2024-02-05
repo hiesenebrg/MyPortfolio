@@ -14,31 +14,37 @@ export const Projects = () => {
       title: "ImageIn Image Developer powered by Dall-E",
       description: "Develop any image you want",
       imgUrl: projImg1,
+      githubLink:"https://github.com/hiesenebrg/imageIn-Dall-e-Project",
     },
     {
       title: "FashionMaina - Ecommerce Website",
       description: "Ecommerce website ",
       imgUrl: projImg2,
+      githubLink:"https://github.com/hiesenebrg/FashionMaina",
     },
     {
       title: "Postboxx - Social Media Website",
       description: "post Photos  , Videos and thoughts with your Friend",
       imgUrl: projImg3,
+      githubLink:"https://github.com/hiesenebrg/mywebsite",
     },
     {
       title: "Chat Website",
       description: "chat with your friends by creating chat room",
       imgUrl: projImg1,
+      githubLink:"https://github.com/hiesenebrg/LetsChat",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      githubLink:"",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      githubLink:"",
     },
   ];
 
